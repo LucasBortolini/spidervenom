@@ -2,30 +2,20 @@ body {
   margin: 0;
   background-color: #E1E1E1;
 }
+
 a {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 a:visited {
   color: purple;
   text-decoration: underline; /* não funciona (https://developer.mozilla.org/pt-BR/docs/Web/CSS/:visited) */
 }
-.history, .EY, .powers, .enemies, .RI, .AVOSP, .Fonte {
-  padding: 25px 0;
-  max-width: 750px;
-  margin: auto;
-}
-.identificacao {
-  padding: 25px 0;
-  max-width: 750px;
-  margin: auto;
-}
-.imagens {
-  height: auto;
-  width: 400px;
-}
+
 /*professora, eu usei as funções que a Sra. pediu mas não gostei do tamanho sugerido então modifiquei...*/
 p, li {
   font-style: 12px;
@@ -41,7 +31,29 @@ h1 {
 h3, h4 {
   color: #0D1B1E;
 }
-.fonte {
 
+.history, .ey, .powers, .enemies, .ri, .avosp, .source {
+  padding: 25px 0;
+  max-width: 750px;
+  margin: auto;
 }
+
+.profile {
+  padding: 25px 0;
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+}
+
+.images {
+  height: auto;
+  width: 400px;
+}
+
+.source {
+  text-align: center;
+}
+
+
+
 
